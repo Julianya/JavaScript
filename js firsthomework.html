@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<script>
+    //1
+    alert('Hello world!');
+
+    //2
+    for(var i=1;i<=100;++i){
+        console.log(i);
+    }
+    
+    //3
+     var num1=prompt('请输入第一个操作数：');
+     var operator=prompt('请输入运算符：');
+     var num2=prompt('请输入第二个操作数');
+    if(operator=='+'){
+        var result=num1+num2;
+        alert('计算结果为：'+result);
+    }
+    else if(operator=='-'){
+        var result=num1-num2;
+        alert('计算结果为：'+result);
+    }
+    else if(operator=='*'){
+        var result=num1*num2;
+        alert('计算结果为：'+result);
+    }
+    else if(operator=='/'){
+        var result=num1/num2;
+        alert('计算结果为：'+result);
+    }
+    else
+    alert('暂不支持该运算');
+
+</script>
+<body>
+    
+</body>
+</html>
